@@ -25,4 +25,7 @@ new basic2
 $ npm init -y
 
 $ npm install sass-loader node-sass css-loader extract-text-webpack-plugin babel-core babel-preset-es2015 --save-dev
+
+-- HTML + IMAGE LOADERS
+$ npm install --save-dev html-loader html-webpack-plugin file-loader
 ```
