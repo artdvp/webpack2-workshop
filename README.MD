@@ -1,4 +1,4 @@
-# Webpack 2 Basics Tutorial
+# Webpack 2 Basics Tutorial - Nding
 
 [youtube link](https://www.youtube.com/playlist?list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os)
 
