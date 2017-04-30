@@ -1,6 +1,6 @@
 
 import '../css/main.scss';
-import { RandomGenerator } from './rsndom-generator';
+import { RandomGenerator } from './random-generator';
 
 const outputParagraph = document.querySelector('#outputParagraph');
 
