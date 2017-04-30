@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -67,16 +68,15 @@ module.exports = {
         ]
     },
     plugins: [
+        new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery'
+        }),
         extractPlugin,
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.html'
         }),
-        // new HtmlWebpackPlugin({
-        //     filename: 'user.html',
-        //     template: 'src/user.html',
-        //     chunks: ['app']
-        // }),
         new CleanWebpackPlugin([
           'dist'
         ])
