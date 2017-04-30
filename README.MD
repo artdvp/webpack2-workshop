@@ -8,4 +8,13 @@ import
 export
 
 $ npm run build
+
+/*
+ * "build": "webpack src/js/app.js dist/bundle.js",
+ * "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+ */
+
+$ npm run build:prod
+
+$ npm install --save-dev webpack-dev-server
 ```
