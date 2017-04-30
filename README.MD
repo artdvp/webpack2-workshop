@@ -1,10 +1,12 @@
 # Webpack 2 Basics Tutorial
 
+[youtube link](https://www.youtube.com/playlist?list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os)
+
 ```
-$ npm init 
+$ npm init
 $ npm install webpack --save-dev
 
-import 
+import
 export
 
 $ npm run build
@@ -28,4 +30,6 @@ $ npm install sass-loader node-sass css-loader extract-text-webpack-plugin babel
 
 -- HTML + IMAGE LOADERS
 $ npm install --save-dev html-loader html-webpack-plugin file-loader
+
+$ npm install --save-dev clean-webpack-plugin
 ```
