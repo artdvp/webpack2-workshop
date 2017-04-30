@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mschwarzmueller/yt-webpack2-basics#readme",
   "devDependencies": {
-    "webpack": "^2.4.1"
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
