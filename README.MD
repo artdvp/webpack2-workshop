@@ -17,4 +17,6 @@ $ npm run build
 $ npm run build:prod
 
 $ npm install --save-dev webpack-dev-server
+
+$ npm install css-loader style-loader --save-dev
 ```
